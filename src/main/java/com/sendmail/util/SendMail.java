@@ -28,7 +28,7 @@ public class SendMail {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
                 System.out.println("2");
-//              return new PasswordAuthentication(user.getEmail(),user.getPassword());
+              //return new PasswordAuthentication(user.getEmail(),user.getPassword());
                 return new PasswordAuthentication(user.getEmail(),"123456789");
 
             }
